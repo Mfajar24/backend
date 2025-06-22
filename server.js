@@ -29,7 +29,7 @@ app.use('/galeri', galeriRoutes);
 
 app.use('/js', express.static(path.join(__dirname, 'frontend/js')));
 
-sequelize.sync({ force: false })
+sequelize.sync({ force: true })
   .then(() => {
     console.log('Database synced');
     app.listen(5000, () => console.log('Server started on http://localhost:5000'));

@@ -8,7 +8,7 @@ const Galeri = sequelize.define('Galeri', {
     autoIncrement: true,
   },
   student_id: {
-    type: DataTypes.STRING,
+    type: DataTypes.INTEGER,
     allowNull: false,
   },
   text: {

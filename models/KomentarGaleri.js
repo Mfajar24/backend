@@ -12,7 +12,7 @@ const KomentarGaleri = sequelize.define('KomentarGaleri', {
     allowNull: false,
   },
   student_id: {
-    type: DataTypes.STRING,
+    type: DataTypes.INTEGER,
     allowNull: false,
   },
   text: {

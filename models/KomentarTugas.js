@@ -7,7 +7,7 @@ const KomentarTugas = sequelize.define('KomentarTugas', {
     allowNull: false,
   },
   student_id: {
-    type: DataTypes.STRING,
+    type: DataTypes.INTEGER,
     allowNull: false,
   },
   task_id: {

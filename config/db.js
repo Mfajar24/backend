@@ -1,9 +1,9 @@
 const { Sequelize } = require('sequelize');
 
-const sequelize = new Sequelize({
-  dialect: 'sqlite',
-  storage: './registration.sqlite',  // Ganti nama file database disini
-  logging: false,
+const db = new Sequelize('techno', 'postgres', 'Fajar123', {
+  host: 'localhost',
+  dialect: 'postgres',
+  logging: false, // nonaktifkan log SQL
 });
 
-module.exports = sequelize;
+module.exports = db;

@@ -13,7 +13,7 @@ const Comment = sequelize.define('Comment', {
         }
     },
     student_id: {
-        type: DataTypes.STRING, // harus sesuai dengan user.studentId
+        type: DataTypes.INTEGER, // harus sesuai dengan user.studentId
         allowNull: false,
         references: {
             model: User,

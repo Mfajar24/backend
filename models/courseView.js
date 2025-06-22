@@ -7,7 +7,7 @@ const CourseView = sequelize.define('CourseView', {
     allowNull: false
   },
   student_id: {
-    type: DataTypes.STRING,
+    type: DataTypes.INTEGER,
     allowNull: false
   },
   viewed_at: {
