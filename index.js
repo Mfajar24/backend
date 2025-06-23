@@ -1,13 +1,13 @@
 const express = require('express');
 const path = require('path');
 const cors = require('cors');
-const sequelize = require('../config/db');
-const authRoutes = require('../routes/authRoutes');
-const userRoutes = require('../routes/userRoutes');
-const courseRoutes = require('../routes/courseRoute');
-const tugasRoutes = require('../routes/tugasRoutes');
-const jawabanRoutes = require('../routes/jawabanRoutes');
-const galeriRoutes = require('../routes/galeriRoutes');
+const sequelize = require('./config/db');
+const authRoutes = require('./routes/authRoutes');
+const userRoutes = require('./routes/userRoutes');
+const courseRoutes = require('./routes/courseRoute');
+const tugasRoutes = require('./routes/tugasRoutes');
+const jawabanRoutes = require('./routes/jawabanRoutes');
+const galeriRoutes = require('./routes/galeriRoutes');
 
 const app = express();
 
