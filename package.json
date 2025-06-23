@@ -1,29 +1,21 @@
 {
   "name": "backend",
   "version": "1.0.0",
-  "main": "api/index.js",
+  "main": "index.js",
+  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mfajar24/backend.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
-  "dependencies": {
-    "bcryptjs": "^3.0.2",
-    "cors": "^2.8.5",
-    "dotenv": "^16.5.0",
-    "express": "^5.1.0",
-    "multer": "^2.0.0",
-    "mysql2": "^3.14.1",
-    "pg": "^8.16.2",
-    "pg-hstore": "^2.3.4",
-    "sanitize-html": "^2.17.0",
-    "sequelize": "^6.37.7",
-    "xss": "^1.0.15"
+  "bugs": {
+    "url": "https://github.com/Mfajar24/backend/issues"
   },
-  "devDependencies": {
-    "nodemon": "^3.1.10"
-  }
+  "homepage": "https://github.com/Mfajar24/backend#readme",
+  "description": ""
 }
